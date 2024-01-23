@@ -37,9 +37,19 @@ let thirdO = o[3];
 console.log("3" + thirdO + " choice is " + thirdColor);
 
 
+let person = {
+    saxeli:"mate",
+    gvari:"Gotua"
+};
 
-let sakheli = "Mate"
-let gvari = "gotua"
+person.asaki = 30;
+console.log(person);
+
+ delete person.saxeli;
+ console.log(person);
+
+person.saxeli = "giorgi";
+console.log(person);
 
 
 
